@@ -1,5 +1,5 @@
 import pandas as pd
-
+import matplotlib as mp
 data = {
     "name" : ["theo", "pihvin", "john"],
     "attendance" : [0, 1, 100],
