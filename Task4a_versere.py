@@ -14,6 +14,7 @@ def main_menu():
         print("")
         print("########### Please select an option #############")
         print("### 1. Total Sales Analysis")
+        print("### 2. Other Sales Data")
 
         choice = input('Enter your number selection here: ')
 
@@ -112,8 +113,8 @@ def sales_choice():
     flag = True
     while flag:
         print("###### Please select an option ######")
-        print("### 1. See sales over time for salespeople ###")
-        print("### 2. See sales over time for new and used cars ###")
+        print("### 1. See sales for salespeople ###")
+        print("### 2. See sales for new and used cars ###")
         choice = input("Enter choice here: ")
         try:
             int(choice)
