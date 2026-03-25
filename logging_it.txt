@@ -1,0 +1,2 @@
+2026-03-16 10:43:53,296::CRITICAL::__main__::<module>::18::(message)s
+2026-03-16 10:46:25,606::CRITICAL::__main__::<module>::18::hello

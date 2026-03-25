@@ -101,7 +101,4 @@ while x == 1 or x == 2 or x == 3:
         if choice == 1:
             region_prices(region_df, start, end, region)
 
-    elif x == 3:
-        regions = df.groupby("Region")[df.loc[:, "Jan-12" : "May-22"]]
-        print(regions)
     x = mainmenu()
