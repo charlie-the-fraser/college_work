@@ -1,2 +1,4 @@
 -- database: chinook.db
-SELECT * FROM chinook
+SELECT * FROM albums;
+
+SELECT * from albums WHERE ArtistId = 54
